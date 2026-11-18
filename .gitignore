@@ -1,0 +1,24 @@
+
+# Entorno virtual
+.venv/
+venv/
+
+# Credenciales privadas
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store

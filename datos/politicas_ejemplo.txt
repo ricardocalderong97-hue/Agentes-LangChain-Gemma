@@ -1,0 +1,4 @@
+Vacaciones: cada empleado tiene 15 días hábiles de vacaciones al año.
+Trabajo remoto: se permite trabajo remoto 2 días por semana, previa aprobación del jefe.
+Reembolsos: los reembolsos de gastos se solicitan antes del día 25 de cada mes.
+Capacitación: la empresa financia hasta el 70% de cursos relacionados con el cargo.

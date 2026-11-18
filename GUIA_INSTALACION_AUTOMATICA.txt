@@ -1,0 +1,22 @@
+AGENTES GEMMA - GUIA RAPIDA WINDOWS
+
+1) Copia esta carpeta a un computador Windows 10/11 con acceso a Internet.
+2) Haz DOBLE CLIC en INSTALAR.bat. Acepta los permisos solicitados para instalar programas.
+   Requiere acceso a Internet, espacio para Ollama y para las bibliotecas Python.
+   Si Windows no detecta una instalacion recien realizada, cierra y repite INSTALAR.bat.
+3) Haz DOBLE CLIC en INICIAR.bat y selecciona 1 para ejecutar la demostracion.
+4) Para registrar trazas abre la opcion 7 de INICIAR.bat y ajusta:
+   LANGSMITH_TRACING=true
+   LANGSMITH_API_KEY=clave_personal
+   LANGSMITH_PROJECT=agentes-gemma-curso
+   Guarda el archivo. NO compartas .env ni tu clave.
+5) La opcion 6 permite evaluar el RAG cuando ya tienes una cuenta de LangSmith.
+
+NOTAS:
+- No copies la carpeta .venv desde otro computador.
+- El instalador NO sube documentos a LangSmith por defecto.
+- El programa necesita que Ollama este iniciado para generar respuestas.
+- Si no tienes winget, instala Python y Ollama desde sus sitios oficiales y ejecuta INSTALAR.bat otra vez.
+- Si alguna dependencia falla por compatibilidad, instala Python 3.12 y vuelve a crear .venv.
+- INSTALAR.bat puede reejecutarse sin borrar .env.
+- El clima del ejemplo es simulado mientras CLIMA_REAL=false.
